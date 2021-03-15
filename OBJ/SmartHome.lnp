@@ -13,6 +13,8 @@
 "..\obj\control.o"
 "..\obj\iic.o"
 "..\obj\oled.o"
+"..\obj\iic_gy302.o"
+"..\obj\gy302.o"
 "..\obj\mqtt.o"
 "..\obj\usart2.o"
 "..\obj\wifi.o"

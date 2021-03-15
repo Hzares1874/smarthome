@@ -10,6 +10,9 @@
 #include "servo.h"
 #include "yuyin.h"
 #include "oled.h"
+#include "gy302.h"
+#include "iic_gy302.h"
+
 
 char *cmdLED_On = "LEDON";      //LED打开
 char *cmdLED_Off = "LEDOFF";    //LED关闭
@@ -38,6 +41,7 @@ int main(void)
 	IoT_Parameter_Init();  //初始化云IoT平台MQTT服务器的参数
 	
 	OLED_Init();
+	IICGY302_GPIOInit();
 	//USART3_SendString((u8*)"收到",strlen((char*)"收到"));
 	//OLED_Menu_Display();
 	while(1)
@@ -46,6 +50,7 @@ int main(void)
 		CommProc();	
 		yuyinProc();
 		ldr_work();
+		sunlightProc();
 		OLED_Menu_Display();
 	}
 }

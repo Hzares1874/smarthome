@@ -55,3 +55,5 @@
 ..\obj\main.o: ..\HARDWARE\Trash\servo.h
 ..\obj\main.o: ..\HARDWARE\Trash\yuyin.h
 ..\obj\main.o: ..\HARDWARE\OLED\oled.h
+..\obj\main.o: ..\HARDWARE\gy302.h
+..\obj\main.o: ..\HARDWARE\iic_gy302.h

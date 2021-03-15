@@ -44,3 +44,5 @@
 ..\obj\oled.o: ..\HARDWARE\OLED\iic.h
 ..\obj\oled.o: ..\HARDWARE\dht11.h
 ..\obj\oled.o: ..\HARDWARE\MQ2\mq2.h
+..\obj\oled.o: ..\HARDWARE\gy302.h
+..\obj\oled.o: ..\HARDWARE\iic_gy302.h

@@ -458,6 +458,16 @@
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\OLED\oled.c</FilePath>
             </File>
+            <File>
+              <FileName>iic_gy302.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\iic_gy302.c</FilePath>
+            </File>
+            <File>
+              <FileName>gy302.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\gy302.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
