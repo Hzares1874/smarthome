@@ -54,3 +54,4 @@
 ..\obj\main.o: ..\HARDWARE\Communication\wifi.h
 ..\obj\main.o: ..\HARDWARE\Trash\servo.h
 ..\obj\main.o: ..\HARDWARE\Trash\yuyin.h
+..\obj\main.o: ..\HARDWARE\OLED\oled.h

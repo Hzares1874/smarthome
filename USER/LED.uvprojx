@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>STM32F40_41xxx,USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\HARDWARE\LED;..\FWLIB\inc;..\HARDWARE;..\HARDWARE\Communication;..\HARDWARE\HcSr501;..\HARDWARE\LightLed;..\HARDWARE\MQ2;..\HARDWARE\Trash</IncludePath>
+              <IncludePath>..\CORE;..\SYSTEM\delay;..\SYSTEM\sys;..\SYSTEM\usart;..\USER;..\HARDWARE\LED;..\FWLIB\inc;..\HARDWARE;..\HARDWARE\Communication;..\HARDWARE\HcSr501;..\HARDWARE\LightLed;..\HARDWARE\MQ2;..\HARDWARE\Trash;..\HARDWARE\OLED</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -447,6 +447,16 @@
               <FileName>control.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\control.c</FilePath>
+            </File>
+            <File>
+              <FileName>iic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\OLED\iic.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\OLED\oled.c</FilePath>
             </File>
           </Files>
         </Group>

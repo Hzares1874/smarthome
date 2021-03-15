@@ -11,6 +11,8 @@
 "..\obj\timer.o"
 "..\obj\timer_it.o"
 "..\obj\control.o"
+"..\obj\iic.o"
+"..\obj\oled.o"
 "..\obj\mqtt.o"
 "..\obj\usart2.o"
 "..\obj\wifi.o"

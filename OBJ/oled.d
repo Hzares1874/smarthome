@@ -1,5 +1,5 @@
-..\obj\oled.o: ..\HARDWARE\oled.c
-..\obj\oled.o: ..\HARDWARE\oled.h
+..\obj\oled.o: ..\HARDWARE\OLED\oled.c
+..\obj\oled.o: ..\HARDWARE\OLED\oled.h
 ..\obj\oled.o: ..\USER\stm32f4xx.h
 ..\obj\oled.o: ..\CORE\core_cm4.h
 ..\obj\oled.o: D:\Software\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -35,7 +35,12 @@
 ..\obj\oled.o: ..\FWLIB\inc\stm32f4xx_dac.h
 ..\obj\oled.o: ..\FWLIB\inc\stm32f4xx_dcmi.h
 ..\obj\oled.o: ..\FWLIB\inc\stm32f4xx_fsmc.h
-..\obj\oled.o: D:\Software\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 ..\obj\oled.o: ..\SYSTEM\delay\delay.h
 ..\obj\oled.o: ..\SYSTEM\sys\sys.h
-..\obj\oled.o: ..\HARDWARE\font.h
+..\obj\oled.o: ..\HARDWARE\OLED\font.h
+..\obj\oled.o: D:\Software\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\obj\oled.o: D:\Software\Keil5\ARM\ARMCC\Bin\..\include\string.h
+..\obj\oled.o: D:\Software\Keil5\ARM\ARMCC\Bin\..\include\math.h
+..\obj\oled.o: ..\HARDWARE\OLED\iic.h
+..\obj\oled.o: ..\HARDWARE\dht11.h
+..\obj\oled.o: ..\HARDWARE\MQ2\mq2.h

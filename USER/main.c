@@ -9,7 +9,7 @@
 #include "Commun.h"
 #include "servo.h"
 #include "yuyin.h"
-
+#include "oled.h"
 
 char *cmdLED_On = "LEDON";      //LED打开
 char *cmdLED_Off = "LEDOFF";    //LED关闭
@@ -35,16 +35,18 @@ int main(void)
 	Servo_Init();
 	Usart3_Init(9600);
 	WiFi_ResetIO_Init();   //初始化WiFi的复位IO
-	IoT_Parameter_Init();  //初始化云IoT平台MQTT服务器的参数	
-	USART3_SendString((u8*)"收到",strlen((char*)"收到"));
+	IoT_Parameter_Init();  //初始化云IoT平台MQTT服务器的参数
 	
+	OLED_Init();
+	//USART3_SendString((u8*)"收到",strlen((char*)"收到"));
+	//OLED_Menu_Display();
 	while(1)
 	{	
 		mq2Proc();
 		CommProc();	
 		yuyinProc();
 		ldr_work();
-
+		OLED_Menu_Display();
 	}
 }
 
